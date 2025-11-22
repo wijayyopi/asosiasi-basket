@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Profil Tim - Asosiasi Basket</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin:0; padding:0;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color:#fff;
+    }
+    header {
+      background: linear-gradient(90deg, #cc0000, #006600);
+      padding:20px; text-align:center;
+      box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin:0; font-size:2em; letter-spacing:2px;
+    }
+    nav a {
+      margin:0 15px; color:white; text-decoration:none;
+      font-weight:bold; transition:color 0.3s;
+    }
+    nav a:hover { color:#ffcccc; }
+    section { padding:40px; max-width:1000px; margin:auto; }
+    h2 { text-align:center; font-size:2em; margin-bottom:30px; color:#66ff66; }
+    .team-card {
+      background:rgba(255,255,255,0.05);
+      border-radius:12px;
+      padding:20px;
+      margin-bottom:30px;
+      display:flex;
+      align-items:center;
+      box-shadow:0 8px 20px rgba(0,0,0,0.6);
+      transition:transform 0.3s;
+    }
+    .team-card:hover { transform:scale(1.02); }
+    .team-logo {
+      width:100px; height:100px;
+      background:#fff; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      margin-right:20px;
+      font-weight:bold; color:#cc0000;
+    }
+    .team-info h3 {
+      margin:0; font-size:1.5em; color:#ff3333;
+    }
+    .team-info p {
+      margin:5px 0; font-size:1em; color:#ddd;
+    }
+    .stats {
+      margin-top:10px;
+      display:flex; gap:20px;
+    }
+    .stat-box {
+      background:rgba(0,255,0,0.2);
+      padding:10px 15px;
+      border-radius:8px;
+      text-align:center;
+    }
+    .stat-box strong {
+      display:block; font-size:1.2em; color:#66ff66;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Profil Tim</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="pertandingan.html">Pertandingan</a>
+      <a href="klasemen-merah-hijau.html">Klasemen</a>
+      <a href="tim.html">Tim</a>
+      <a href="berita.html">Berita</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Tim Peserta Musim 2025</h2>
+
+    <div class="team-card">
+      <div class="team-logo">SH</div>
+      <div class="team-info">
+        <h3>Surabaya Hawks</h3>
+        <p>Markas: GOR Kertajaya</p>
+        <p>Pelatih: Andi Prasetyo</p>
+        <div class="stats">
+          <div class="stat-box"><strong>PPG</strong> 82.0</div>
+          <div class="stat-box"><strong>RPG</strong> 40.5</div>
+          <div class="stat-box"><strong>APG</strong> 18.2</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-logo">MT</div>
+      <div class="team-info">
+        <h3>Malang Thunder</h3>
+        <p>Markas: GOR Ken Arok</p>
+        <p>Pelatih: Budi Santoso</p>
+        <div class="stats">
+          <div class="stat-box"><strong>PPG</strong> 79.0</div>
+          <div class="stat-box"><strong>RPG</strong> 38.7</div>
+          <div class="stat-box"><strong>APG</strong> 17.5</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-logo">KT</div>
+      <div class="team-info">
+        <h3>Kediri Titans</h3>
+        <p>Markas: GOR Jayabaya</p>
+        <p>Pelatih: Rudi Hartono</p>
+        <div class="stats">
+          <div class="stat-box"><strong>PPG</strong> 78.0</div>
+          <div class="stat-box"><strong>RPG</strong> 37.9</div>
+          <div class="stat-box"><strong>APG</strong> 16.8</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
