@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Berita - Asosiasi Basket</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin:0; padding:0;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color:#fff;
+    }
+    header {
+      background: linear-gradient(90deg, #cc0000, #006600);
+      padding:20px; text-align:center;
+      box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin:0; font-size:2em; letter-spacing:2px;
+    }
+    nav a {
+      margin:0 15px; color:white; text-decoration:none;
+      font-weight:bold; transition:color 0.3s;
+    }
+    nav a:hover { color:#ffcccc; }
+    section { padding:40px; max-width:1200px; margin:auto; }
+    h2 { text-align:center; font-size:2em; margin-bottom:30px; color:#66ff66; }
+    .news-grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap:20px;
+    }
+    .news-card {
+      background:rgba(255,255,255,0.05);
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 8px 20px rgba(0,0,0,0.6);
+      transition:transform 0.3s;
+    }
+    .news-card:hover { transform:scale(1.03); }
+    .news-card img {
+      width:100%; height:180px; object-fit:cover;
+    }
+    .news-content {
+      padding:20px;
+    }
+    .news-content h3 {
+      margin:0 0 10px; font-size:1.3em; color:#ff3333;
+    }
+    .news-content p {
+      margin:0 0 10px; font-size:0.95em; color:#ddd;
+    }
+    .news-date {
+      font-size:0.85em; color:#66ff66;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Berita Asosiasi Basket</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="pertandingan.html">Pertandingan</a>
+      <a href="klasemen-merah-hijau.html">Klasemen</a>
+      <a href="tim.html">Tim</a>
+      <a href="berita.html">Berita</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Berita Terbaru</h2>
+    <div class="news-grid">
+      
+      <div class="news-card">
+        <img src="assets/img/game1.jpg" alt="Surabaya Hawks vs Malang Thunder">
+        <div class="news-content">
+          <h3>Hawks Menang Tipis atas Thunder</h3>
+          <p>Surabaya Hawks berhasil mengalahkan Malang Thunder dengan skor 78–76 dalam laga sengit di GOR Kertajaya.</p>
+          <span class="news-date">5 Des 2025</span>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img src="assets/img/game2.jpg" alt="Kediri Titans vs Sidoarjo Flames">
+        <div class="news-content">
+          <h3>Titans Kokoh di Posisi Ketiga</h3>
+          <p>Kediri Titans mempertahankan posisi klasemen setelah mengalahkan Sidoarjo Flames dengan skor 82–74.</p>
+          <span class="news-date">1 Des 2025</span>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img src="assets/img/academy.jpg" alt="Program Akademi Basket">
+        <div class="news-content">
+          <h3>Akademi Basket Resmi Dibuka</h3>
+          <p>Asosiasi meluncurkan program pembinaan untuk pemain muda dengan fokus pada teknik dasar dan sportivitas.</p>
+          <span class="news-date">28 Nov 2025</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
